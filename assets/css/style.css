@@ -1,0 +1,108 @@
+
+
+
+body{
+    background: #230C63;
+    overflow-x: hidden;
+    
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
+  overflow: overlay;
+}
+.maincontent{
+width: 414px;
+height: 700px;
+left: 753px;
+top: 92px;
+
+display: block;
+margin-left: auto;
+margin-right: auto;
+background-image: url(/assets/images/demn.png);
+border-radius: 1em;
+
+}
+img{
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    pointer-events: none;
+ }
+
+
+
+  .logo{
+      
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+      text-align: center;
+  }
+
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
+.signlog{
+   color: white;
+
+background: #000000;
+border-radius: 38px;
+font-family: Montserrat;
+font-weight:600;
+font-size: 14px;
+padding-left: 6em;
+padding-top: 1em;
+padding-right: 6em;
+padding-bottom: 1em;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+  background:transparent;
+}
+
+/* Track */
+
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(252, 252, 252, 0.377);
+  border-radius: 100vh;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.616);
+}
+a{
+  text-decoration: none;
+}
+a:visited{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration:none;
+}
+.taptap{
+  color: black;
+
+background: white;
+border-radius: 15px;
+font-family: Montserrat;
+font-weight:600;
+font-size: 14px;
+padding-left: 6em;
+padding-top: 1em;
+padding-right: 6em;
+padding-bottom: 1em;
+}
