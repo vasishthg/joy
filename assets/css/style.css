@@ -9,6 +9,7 @@ body{
   background-size: 400% 400%;
   animation: gradient 10s ease infinite;
   overflow: overlay;
+  font-family: Montserrat;
 }
 .maincontent{
 width: 414px;
@@ -27,7 +28,6 @@ img{
     -moz-user-select: none;
     -webkit-user-select: none;
     user-select: none;
-    pointer-events: none;
  }
 
 
@@ -106,3 +106,162 @@ padding-top: 1em;
 padding-right: 6em;
 padding-bottom: 1em;
 }
+.maincontant{
+  width: 414px;
+  height: 800px;
+  left: 753px;
+  top: 92px;
+  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border-radius: 1em;
+  
+  }
+  .mainconent{
+    width: 414px;
+    height: 700px;
+    left: 753px;
+    top: 92px;
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(/assets/images/ill5.png);
+    background-size: contain;
+    border-radius: 1em;
+    
+    }
+    .taptap2{
+      color: black;
+    
+    background: rgba(252, 252, 252, 0.377);
+    border-radius: 15px;
+    font-family: Montserrat;
+    font-weight:600;
+    font-size: 14px;
+    padding-left: 6em;
+    padding-top: 1em;
+    padding-right: 6em;
+    padding-bottom: 1em;
+    border: none;
+    }
+    .signlog2{
+      color: white;
+   
+   background: #000000;
+   border-radius: 38px;
+   font-family: Montserrat;
+   font-weight:600;
+   font-size: 14px;
+   padding-left: 2em;
+   padding-top: 1em;
+   padding-right: 2em;
+   border: none;
+   padding-bottom: 1em;
+
+   }
+   .taptap2:hover{
+    color: black;
+    
+    background: rgba(252, 252, 252, 0.479);
+    border-radius: 15px;
+    font-family: Montserrat;
+    font-weight:600;
+    font-size: 14px;
+    padding-left: 6em;
+    padding-top: 1em;
+    padding-right: 6em;
+    padding-bottom: 1em;
+    border:none
+   }
+   .mainconaent{
+    width: 414px;
+    height: 800px;
+    left: 753px;
+    top: 92px;
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(/assets/images/play.png);
+    background-size: contain;
+    border-radius: 1em;
+    
+    }
+    
+   .maincontentdeez{
+    width: 414px;
+    height: 850px;
+    left: 753px;
+    top: 92px;
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #000000;
+    background-size: contain;
+    border-radius: 1em;
+    
+    }
+    .signlog3{
+      color: black;
+   
+   background: #AFEB8F;
+   border-radius: 38px;
+   font-family: Montserrat;
+   font-weight:600;
+   font-size: 14px;
+   padding-left: 2em;
+   padding-top: 1em;
+   padding-right: 2em;
+   padding-bottom: 1em;
+   border: noen;
+   }
+   .privazy{
+     background-color: white;
+     border-radius: 0.4em;
+   }
+   .buttonlol{
+     padding-left: 1em;
+     padding-bottom: 1em;
+     padding-top: 1em;
+     padding-right: 1em;
+    
+    background: cyan;
+    border-radius: 5px;
+   }
+   .chat1{
+    background: #121F33;
+    border-radius: 24px 4px 24px 24px;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+  
+    
+   }
+   .noiceinput{
+     margin-left: 2em;
+     background: none;
+     box-shadow: none;
+     scrollbar-darkshadow-color: none;
+     width: 85%;
+     height: 80%;
+     outline: none;
+     outline-style: none;
+  outline-color: none;
+       margin-right: 1em;
+       border-image: linear-gradient(to top, #3acfd5 0%, #3a4ed5 100%)2 100%;
+
+   }
+   .noiceinput::placeholder{
+     text-align: start;
+     position: absolute ;
+     font-size: 1.5em;
+     color: rgb(116, 114, 114);
+     font-family: 'Red Hat Display';
+     font-weight: 900;
+     
+   }
